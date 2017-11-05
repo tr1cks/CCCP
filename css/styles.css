@@ -1,0 +1,515 @@
+/* Base elements */
+
+* 
+{
+	margin:0;
+	padding:0;
+}
+
+html, body 
+{
+	width:100%;
+}
+
+body 
+{
+	font-size: 16px;
+	font-family: Arial, Verdana, sans-serif;
+	background: brown;
+	color: #585858;
+	background-image: url(../images/background/WoodTexture.jpg);	
+	background-repeat: repeat;
+	padding: 30px 12px 30px 12px;
+}
+
+h1, h2, h3, h4, h5, h6
+{ 
+	color: #585858;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1 
+{ 
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h2 
+{ 
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	letter-spacing: 5px;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 7px;
+	padding-bottom: 15px;
+}
+
+h3
+{ 
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a 
+{
+	color: #000;
+	text-decoration: underline;
+	font-family: Verdana, sans-serif;
+	outline: none;
+	font-size: 14px;
+}
+
+a:hover 
+{
+	text-decoration: none; 
+}
+
+img, table 
+{
+	border: 0;
+	vertical-align: bottom;
+}
+
+ol, ul
+{
+	list-style: none;
+}
+
+form label
+{
+	cursor: pointer;
+}
+
+p
+{
+	margin-bottom: 18px;
+	line-height: 1.5;
+}
+
+/* Base elements */
+
+
+
+/* General elements */
+
+h1 a
+{
+	font-size: 20px;
+	font-family: Arial, Verdana, sans-serif;
+	color: #585858;
+}
+
+.manuscript
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #505094;
+	font-style: italic;
+}
+
+.manuscript a
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #505094;
+	font-style: italic;
+}
+
+.rightBorderWrap
+{
+	background-image: url(../images/background/rightBorderWrap.jpg);	
+	background-repeat: repeat-y;
+	background-position: right;
+	background-color: #fff;
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+
+.bottomBorderWrap
+{
+	background-image: url(../images/background/bottomBorderWrap.jpg);	
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.rightTopCorner
+{
+	background-image: url(../images/background/rightTopCorner.jpg);	
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.rightBottomCorner
+{
+	background-image: url(../images/background/rightBottomCorner.jpg);	
+	background-repeat: no-repeat;
+	background-position: right bottom;
+}
+
+.leftBottomCorner
+{
+	background-image: url(../images/background/leftBottomCorner.jpg);	
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding: 30px 44px 40px 44px;
+	min-height: 680px;
+}
+
+/* Page shadow-wrapper */
+
+.avatar
+{
+	width: 174px;
+	height: 211px;
+	background: url(../images/background/avatarFrame.jpg);
+	overflow: hidden;
+}
+
+.avatar div
+{
+	margin: 20px 20px 0px 20px;
+	height: 171px;
+	padding: 0px;
+	font-size: 10px;
+	color: #000;
+	font-family: Arial, Verdana, sans-serif;
+	overflow: hidden;
+	text-align: left;
+}
+	
+.recognition .avatarInput
+{
+	width: 134px;
+	height: 171px;
+	font-size: 10px;
+	color: #000;
+	font-family: Arial, Verdana, sans-serif;
+	overflow: hidden;
+	text-align: left;
+}
+	
+.clear
+{
+	clear: both;
+}
+
+/* General elements */
+
+
+
+/* Registration page */
+
+.recognition
+{
+	margin-top: 120px;
+	line-height: 1.8;
+	text-align: center;
+}
+
+.recognition p
+{
+	text-align: left;
+}
+
+.recognition p input, .recognition p select
+{
+	text-align: center;
+}
+
+.recognition p select
+{
+	width: 100px;
+}
+
+.recognition .submit
+{
+	text-align: center;
+	width: 200px;
+	height: 35px;
+}
+
+/* Registration page */
+
+
+
+/* Search page */
+
+.searchForm
+{
+	margin: 10px 0px 30px 0px;
+}
+
+.searchForm input
+{
+	border: none;
+}
+
+.singlePerson
+{
+	margin-top: 30px;
+}
+
+.singlePerson .avatar
+{
+    float:left;
+    margin:0 15px 0 0;
+}
+
+.singlePerson .about
+{
+	position: relative;
+}
+
+.singlePerson .about p
+{
+	padding-top: 50px;
+}
+
+.singlePerson .about .lastName
+{
+	position: absolute;
+	top: 48px;
+	left: 580px;
+}
+
+.singlePerson .about .otherNames
+{
+	position: absolute;
+	top: 72px;
+	left: 450px;
+}
+
+.singlePerson .about .nickName
+{
+	position: absolute;
+	top: 96px;
+	left: 520px;
+}
+
+/* Search page */
+
+
+
+/* Photos page */
+
+.rightsForm
+{
+	float: right;
+}
+
+.photoForms
+{
+	margin-bottom: 70px;
+}
+
+.photo
+{
+	float: left;
+	margin: 0px 32px 32px 0px;
+}
+
+.photo .rightBorderPhoto
+{
+	background: url(../images/background/rightBorderPhoto.jpg);
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+.photo .bottomBorderPhoto
+{
+	background: url(../images/background/bottomBorderPhoto.jpg);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+.photo .rightTopCornerPhoto
+{
+	background: url(../images/background/rightTopCornerPhoto.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;	
+}
+
+.photo .rightBottomCornerPhoto
+{
+	background: url(../images/background/rightBottomCornerPhoto.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;	
+}
+
+.photo .leftBottomCornerPhoto
+{
+	background: url(../images/background/leftBottomCornerPhoto.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;	
+	padding: 25px;
+}
+
+.photo img
+{
+	width: 100px;
+	height: 100px;
+}
+
+/* Photos page */
+
+
+
+/* Person page */
+
+.personInfo
+{
+	margin-top: 5px;
+	float: right;
+	text-align: right;
+}
+
+.personInfo .avatar
+{
+	margin-bottom: 20px;
+}
+
+.personInfo a
+{
+	line-height: 1.8;
+}
+
+.aboutMe
+{
+	position: relative;
+}
+
+.aboutMe span
+{
+	text-align: center;
+}
+
+.aboutMe .lastName
+{
+	position: absolute;
+	top: 0px;
+	left: 250px;
+}
+
+.aboutMe .firstName
+{
+	position: absolute;
+	top: 25px;
+	left: 100px;
+}
+
+.aboutMe .secondName
+{
+	position: absolute;
+	top: 25px;
+	left: 400px;
+}
+
+.aboutMe .nickName
+{
+	position: absolute;
+	top: 49px;
+	left: 205px;
+}
+
+.aboutMe .sex
+{
+	position: absolute;
+	top: 73px;
+	left: 60px;
+}
+
+.aboutMe .birthDate
+{
+	position: absolute;
+	top: 73px;
+	left: 400px;
+}
+
+.aboutMe .birthPlace
+{
+	position: absolute;
+	top: 97px;
+	left: 270px;
+}
+
+.aboutMe .nationality
+{
+	position: absolute;
+	top: 121px;
+	left: 220px;
+}
+
+.aboutMe .socialStatus
+{
+	position: absolute;
+	top: 144px;
+	left: 220px;
+}
+
+.aboutMe .partyMembership
+{
+	position: absolute;
+	top: 169px;
+	left: 230px;
+}
+
+.aboutMe .education
+{
+	position: absolute;
+	top: 193px;
+	left: 165px;
+}
+
+.aboutMe .languages
+{
+	position: absolute;
+	top: 216px;
+	left: 270px;
+}
+
+.specialNote
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.specialNote .personName
+{
+	position: absolute;
+	top: 1px;
+	left: 220px;
+}
+
+.specialNote .message
+{
+	position: absolute;
+	left: 15px;
+	top: 24px;
+	line-height: 1.3;
+}
+
+.addSpecialNote
+{
+	margin: 10px 0px 30px 0px;
+}
+
+.addSpecialNote textarea
+{
+	height: 40px;
+	width: 100%;
+	overflow: none;
+	border: none;
+}
+
+/* Person page */
