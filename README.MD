@@ -1,6 +1,6 @@
 # CCCP social network
 
-It's simple social network service for one student contest. Now I laid out only HTML markup part of it, but maybe later I will upload all server side. Service works perfect, but I have some temporary restrictions, disallowing me to do this now.
+It's simple social network service for student contest. Now I laid out only HTML markup part of it, but maybe in the future I will upload server side too. Service works perfect, but I have some temporary restrictions, disallowing me to do this right now.
 
 ![Person page](screenshorts/person.png)
 
